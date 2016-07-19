@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ZigyAutomationSuite" duration-ms="135541" started-at="2016-07-13T09:38:25Z" finished-at="2016-07-13T09:40:41Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="135541" started-at="2016-07-13T09:38:25Z" finished-at="2016-07-13T09:40:41Z">
+      <class name="TestCases.ZigyCure.AddtoOrder">
+        <test-method status="FAIL" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyCure.AddtoOrder@7a0ac6e3]" name="ExecutionStatusCheck" is-config="true" duration-ms="0" started-at="2016-07-13T15:09:37Z" finished-at="2016-07-13T15:09:37Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[TestCases.ZigyCure.AddtoOrder : Execution status is set to 'No' in 'ExecutionChecker.xls']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: TestCases.ZigyCure.AddtoOrder : Execution status is set to 'No' in 'ExecutionChecker.xls'
+	at Operation.ExecutionStatusChecker.executetestcase(ExecutionStatusChecker.java:62)
+	at TestCases.ZigyCure.AddtoOrder.ExecutionStatusCheck(AddtoOrder.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="SKIP" signature="testAdd2Order()[pri:0, instance:TestCases.ZigyCure.AddtoOrder@7a0ac6e3]" name="testAdd2Order" duration-ms="0" started-at="2016-07-13T15:09:38Z" finished-at="2016-07-13T15:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2Order -->
+      </class> <!-- TestCases.ZigyCure.AddtoOrder -->
+      <class name="TestCases.ZigyHealthVault.HVLogin">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyHealthVault.HVLogin@71be98f5]" name="ExecutionStatusCheck" is-config="true" duration-ms="8102" started-at="2016-07-13T15:09:38Z" finished-at="2016-07-13T15:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.ZigyHealthVault.HVLogin@71be98f5]" name="testLogin" duration-ms="55136" started-at="2016-07-13T15:09:46Z" finished-at="2016-07-13T15:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestCases.ZigyHealthVault.HVLogin -->
+      <class name="TestCases.ZigyCare.CareLogin">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyCare.CareLogin@59a6e353]" name="ExecutionStatusCheck" is-config="true" duration-ms="9695" started-at="2016-07-13T15:08:25Z" finished-at="2016-07-13T15:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.ZigyCare.CareLogin@59a6e353]" name="testLogin" duration-ms="62409" started-at="2016-07-13T15:08:35Z" finished-at="2016-07-13T15:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestCases.ZigyCare.CareLogin -->
+    </test> <!-- Tests -->
+  </suite> <!-- ZigyAutomationSuite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103360" started-at="2016-07-11T05:51:16Z" finished-at="2016-07-11T05:52:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103360" started-at="2016-07-11T05:51:16Z" finished-at="2016-07-11T05:52:59Z">
+      <class name="TestCases.ZigyCure.AddtoOrder">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyCure.AddtoOrder@5bcab519]" name="ExecutionStatusCheck" is-config="true" duration-ms="10707" started-at="2016-07-11T11:21:16Z" finished-at="2016-07-11T11:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testAdd2Order()[pri:0, instance:TestCases.ZigyCure.AddtoOrder@5bcab519]" name="testAdd2Order" duration-ms="92628" started-at="2016-07-11T11:21:27Z" finished-at="2016-07-11T11:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2Order -->
+      </class> <!-- TestCases.ZigyCure.AddtoOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

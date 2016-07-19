@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationSuite" duration-ms="243778" started-at="2016-07-13T09:10:34Z" finished-at="2016-07-13T09:14:38Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="243778" started-at="2016-07-13T09:10:34Z" finished-at="2016-07-13T09:14:38Z">
+      <class name="TestCases.ZigyCure.AddtoOrder">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyCure.AddtoOrder@7a0ac6e3]" name="ExecutionStatusCheck" is-config="true" duration-ms="9001" started-at="2016-07-13T14:41:51Z" finished-at="2016-07-13T14:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testAdd2Order()[pri:0, instance:TestCases.ZigyCure.AddtoOrder@7a0ac6e3]" name="testAdd2Order" duration-ms="101560" started-at="2016-07-13T14:42:00Z" finished-at="2016-07-13T14:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd2Order -->
+      </class> <!-- TestCases.ZigyCure.AddtoOrder -->
+      <class name="TestCases.ZigyHealthVault.HVLogin">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyHealthVault.HVLogin@71be98f5]" name="ExecutionStatusCheck" is-config="true" duration-ms="8070" started-at="2016-07-13T14:43:41Z" finished-at="2016-07-13T14:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.ZigyHealthVault.HVLogin@71be98f5]" name="testLogin" duration-ms="48581" started-at="2016-07-13T14:43:49Z" finished-at="2016-07-13T14:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestCases.ZigyHealthVault.HVLogin -->
+      <class name="TestCases.ZigyCare.CareLogin">
+        <test-method status="PASS" signature="ExecutionStatusCheck()[pri:0, instance:TestCases.ZigyCare.CareLogin@59a6e353]" name="ExecutionStatusCheck" is-config="true" duration-ms="12454" started-at="2016-07-13T14:40:34Z" finished-at="2016-07-13T14:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutionStatusCheck -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.ZigyCare.CareLogin@59a6e353]" name="testLogin" duration-ms="64086" started-at="2016-07-13T14:40:46Z" finished-at="2016-07-13T14:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestCases.ZigyCare.CareLogin -->
+    </test> <!-- Tests -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

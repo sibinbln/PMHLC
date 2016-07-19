@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZigyAutomationSuite]">
+  <test name="Tests(failed)">
+    <classes>
+      <class name="TestCases.ZigyHealthVault.HVLogin">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.ZigyHealthVault.HVLogin -->
+      <class name="TestCases.ZigyCare.CareLogin">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+        </methods>
+      </class> <!-- TestCases.ZigyCare.CareLogin -->
+      <class name="TestCases.ZigyCure.AddtoOrder">
+        <methods>
+          <include name="ExecutionStatusCheck"/>
+          <include name="testAdd2Order"/>
+        </methods>
+      </class> <!-- TestCases.ZigyCure.AddtoOrder -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [ZigyAutomationSuite] -->
